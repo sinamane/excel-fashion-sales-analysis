@@ -24,8 +24,6 @@
 | --- | --- | --- |
 | Negative percentages in the discount column | Applied the absolute value function in power query to convert to positive | -30% → 30% |
 | Duplicate transactions  | Removed 394 duplicate rows |  |
-|  |  |  |
-|  |  |  |
 
 ### Missing Data Handling
 
@@ -33,8 +31,7 @@
 | --- | --- | --- | --- |
 | Product_Name | <1% | Removed the records | These records had missing data in more than one column |
 | Discount | 67% | Populated it with 0% | Not every item is discounted under normal circumstances |
-|  |  |  |  |
-|  |  |  |  |
+
 
 ### “Before vs After” Snapshot
 
@@ -51,7 +48,7 @@ Added 8 columns |
 | Manual Fixes | - | 3 label correction | E.g., “goods-title-link” → “Product_Name” |
 | Numeric Columns Stored as Text | 4227 rows | 0 rows | Text in `Price` column
 Converted all to numeric |
-|  |  |  |  |
+
 
 ---
 
