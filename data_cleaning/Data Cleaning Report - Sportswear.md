@@ -24,7 +24,6 @@
 | --- | --- | --- |
 | Negative percentages in the discount column | Applied the absolute value function in power query to convert to positive | -30% → 30% |
 | Duplicate transactions  | Removed 20 duplicate rows |  |
-|  |  |  |
 
 ### “Before vs After” Snapshot
 
@@ -40,7 +39,7 @@
 | Outliers or Obvious Errors | `Price` values were $0 | - | Filled rows with Mean Imputation |
 | Manual Fixes | - | 3 label corrections | E.g., “goods-title-link” → “Product_Name” |
 | Numeric Columns Stored as Text | 3634 | 0 | Fixed data types for `Price` |
-|  |  |  |  |
+
 
 ---
 
