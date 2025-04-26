@@ -1,3 +1,7 @@
+# 🗂️ FINDINGS
+
+---
+
 ### 🔍 Question 1: Which product categories generate the most revenue across regions?
 
 📊 **Summary of What the Data Shows:**
