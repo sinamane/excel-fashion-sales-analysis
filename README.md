@@ -83,7 +83,7 @@ The following questions shaped the analysis:
 
 ---
 
-![Project_Dashboard_page-0001.jpg](Project_Dashboard_page-0001.jpg)
+![Project_Dashboard_page-0001.jpg](exploratory_data_analysis/Project_Dashboard_page-0001.jpg)
 
 ### CHAPTER 6: REFLECTIONS
 
