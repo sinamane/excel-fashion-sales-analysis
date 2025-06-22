@@ -4,7 +4,7 @@
 
 ---
 
-This project involved analyzing sales data for a fictional clothing company to uncover business insights and improve decision-making. Using Excel and Power BI, I performed data cleaning, transformation, exploratory data analysis (EDA), and dashboard design. The goal was to extract meaningful insights about product performance, pricing, brand behavior, and customer trends across different regions.
+This project involved analyzing sales data for a fictional clothing company to uncover business insights and improve decision-making. Using **Excel and Power Query**, I performed data cleaning, transformation, exploratory data analysis (EDA), and dashboard design. The goal was to extract meaningful insights about product performance, pricing, brand behavior, and customer trends across different regions.
 
 ### OBJECTIVE
 
@@ -14,7 +14,7 @@ This project involved analyzing sales data for a fictional clothing company to u
 - Analyze sales performance across brands, product categories, and regions.
 - Identify trends in pricing, discounts, and product demand.
 - Use EDA to develop business insights and recommendations.
-- Build an interactive Power BI dashboard to visualize KPIs and key findings.
+- Build an Excel dashboard to visualize KPIs and key findings.
 
 ### ABOUT THE DATA
 
@@ -26,24 +26,24 @@ I combined three separate datasets sourced from Kaggle, each representing fashio
 
 ---
 
-Each dataset was cleaned individually using Excel and Power Query, before being consolidated into a single master file. I created a summary report for each dataset outlining:
+Each dataset was cleaned individually using **Excel and Power Query**, before being consolidated into a master file. I documented the process in a summary report for each dataset, highlighting:
 
 - The initial structure and issues in the raw data
-- The cleaning steps taken (e.g., handling missing values, formatting, renaming columns)
-- Snapshots of the data before and after cleaning
-- A summary of the cleaned dataset for quick reference
+- Cleaning steps (e.g., handling missing values, formatting, renaming columns)
+- Before-and-after snapshots of the data
+- A summarized view of the cleaned dataset for easy reference
+
+I also used Power Query functions to automate formatting, filter logic, and transformation rules, allowing for a more dynamic and flexible data model.
 
 ### CHAPTER 2: EXPLORATORY DATA ANALYSIS (EDA)
 
 ---
 
-After familiarizing myself with the data, I formulated key business questions to guide the analysis. The goal was to uncover trends and relationships between variables, generate insights, and provide actionable recommendations to improve sales performance across regions and product categories.
+After familiarizing myself with the data, I defined key business questions to guide the analysis. I then used pivot tables, charts, and summary statistics in Excel to explore:
 
-I explored the data by:
-
-- Comparing metrics like revenue, price, units sold, and discount rates
-- Analyzing performance across regions, brands, and product types
-- Interpreting patterns beyond surface-level numbers
+- Revenue, price, units sold, and discount patterns
+- Performance across regions, brands, and product types
+- Trends that pointed to actionable insights beyond surface-level stats
 
 The following questions shaped the analysis:
 
@@ -58,43 +58,48 @@ The following questions shaped the analysis:
 ---
 
 1. Price Elasticity
-    - Sales volume drops sharply as product prices increase — with a 56% drop between the <$10 and $10–$20 range, and an 82% drop from $10–$20 to $20–$30, despite only moderate price increases.
-    - Exception: Dresses remain high-revenue despite higher price, suggesting inelastic demand— potentially due to fashion appeal, brand positioning, or regional/cultural preferences.
+    - Sales volume dropped 56% between the <$10 and $10–$20 range, and an 82% from $10–$20 to $20–$30, despite only moderate price increases.
+    - **Exception:** Dresses generated high revenue despite higher price, suggesting inelastic demand driven by factors like fashion appeal, branding, or cultural preferences.
 2. Product Categories
-    - The women’s category drives the most revenue across all regions, largely due to a wider variety of product types
-    - In contrast, men’s clothing has fewer product types, which limits its overall revenue potential.
+    - The women’s category drove the most revenue across all regions due to its wider variety of product types
+    - In contrast, men’s clothing had fewer products, limiting its revenue potential.
 3. Discounts
-    - Brands offering deep discounts (e.g., Pulse9) don’t consistently rank high in revenue.
-    - This may indicate low discount sensitivity or limited brand loyalty, where customers aren't swayed by price reductions alone
+    - Brands with heavy discounting (e.g., Pulse9) didn’t rank high in revenue.
+    - This suggests that deep discounts aren’t translating into sales, possibly due to limited to brand loyalty or oversaturation.
 4. Brands
-    - Brands with diverse product offering**s** (e.g., WearHaus, which spans women’s, men’s, and sports categories) outperform those focused on a single category.
-    - Multi-category brands benefit from broader market reach and more consistent sales across regions.
+    - Brands with diverse offerings across categories (e.g., WearHaus) perform better than niche-focused ones.
+    - These brands benefit from broader market reach and more consistent sales across regions.
 
 ### CHAPTER 4: RECOMMENDATIONS
 
 ---
 
-- Men-focused brands may benefit from re-evaluating their heavy discounting strategy, as it’s not translating into higher unit sales. Instead, they could test smaller, targeted promotions or bundle deals to increase appeal.
-- Double down on the Sports category during peak seasons across regions, as discount-driven promotions seem effective for this segment.
-- Pulse9 should consider reducing its reliance on heavy discounting, as it's not translating into higher revenue. Instead, they could experiment with smaller, targeted promotions, bundle deals, or inventory segmentation (e.g., only discounting off-season items).
-- Velvié could test premium pricing strategies for high-demand product types like dresses in the East region, where customers already accept higher prices. Loopline’s success with dresses suggests that product positioning, not just price, affects revenue — Velvié could explore what Loopline does differently (e.g., marketing, regional targeting, design) and adapt those tactics. Further analysis could explore customer profiles by region or survey data (if available) to understand *why* the East shows this purchasing pattern.
+- **Men-focused brands** should reconsider large discount strategies. Targeted promotions or product bundles may yield better results.
+- Double down on **Sports category promotions** during peak seasons, where discount-driven campaigns have shown success.
+- **Pulse9** should test more strategic discounting, perhaps only on off-season items, as current strategies are not increasing revenue.
+- **Velvié** may benefit from premium pricing strategies on high-demand items like dresses, especially in the **East region**, where customers already tolerate higher prices.
+- Velvié could also study **Loopline’s** successful dress strategy — examining factors like marketing, design, or regional focus — and apply similar tactics.
 
 ### CHAPTER 5: DASHBOARD
 
 ---
 
+To bring the analysis together, I created an interactive Excel dashboard summarizing key business metrics with dynamic filters. This dashboard allows users to explore patterns and insights across categories, brands, and regions.
 ![Project_Dashboard_page-0001.jpg](exploratory_data_analysis/Project_Dashboard_page-0001.jpg)
 
 ### CHAPTER 6: REFLECTIONS
 
 ---
 
-- I learned how to follow proper data wrangling guidelines, which made my cleaning process more structured and reliable.
-- I explored Power Query functions and learned how to dynamically populate table cells, making my data models more flexible and automated.
-- Most importantly, I realized that Exploratory Data Analysis (EDA) isn’t just about visualizing the numbers — it’s about digging deeper to understand *why* the numbers look the way they do. Patterns often reflect real-world factors like consumer behavior, product strategies, or seasonality.
+This project helped me to solidify best practices for structured data cleaning and analysis using Excel. Key takeaways include:
+
+- How to apply **Power Query** for efficient and scalable wrangling
+- Building **dynamic models** with named ranges and pivot structures
+- Learning that EDA is not about numbers; it’s about finding the story behind the trands
+- Developing business-driven insights from real-world questions
 
 ### SUMMARY
 
 ---
 
-This project explored fashion sales data across multiple categories and regions. Key insights revealed that women’s products dominate revenue, some high-priced items like dresses perform well despite price sensitivity, and discounts don’t always lead to higher sales. Overall, this analysis improved my ability to clean, analyze, and interpret data to support business decisions.
+This project explored fashion sales across men’s, women’s, and sports categories using Excel Power Query. I identified key insights around pricing behavior, product demand, and brand performance. Even without a dashboard, this analysis demonstrated my ability to clean, model, and interpret data deliver strategic recommendations and support business decisions.
