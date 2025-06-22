@@ -85,6 +85,7 @@ The following questions shaped the analysis:
 ---
 
 To bring the analysis together, I created an interactive Excel dashboard summarizing key business metrics with dynamic filters. This dashboard allows users to explore patterns and insights across categories, brands, and regions.
+
 ![Project_Dashboard_page-0001.jpg](exploratory_data_analysis/Project_Dashboard_page-0001.jpg)
 
 ### CHAPTER 6: REFLECTIONS
